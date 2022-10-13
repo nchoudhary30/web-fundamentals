@@ -1,0 +1,21 @@
+header{
+    text-align: center;
+}
+
+.main-conatiner{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+}
+
+.cardClass{
+    
+}
+
+.dataClass{
+    display: flex;
+    flex-direction: row;
+}
+
+.leftClass{
+    min-width: 100px;
+}

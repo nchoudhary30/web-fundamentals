@@ -63,6 +63,7 @@ function renderCard(user) {
   let img = document.createElement("img");
   img.setAttribute("class", "card-img");
   img.setAttribute("src", user.image);
+  
   let detailsContainer = document.createElement("div");
   detailsContainer.setAttribute("class", "details-container");
   let nodes = fields.forEach((ele) => {
