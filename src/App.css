@@ -1,5 +1,11 @@
+/* @import 'antd/dist/antd.css'; */
+
 .App {
   text-align: center;
+}
+
+.AddButton{
+  border-radius: 50px;
 }
 
 .App-logo {

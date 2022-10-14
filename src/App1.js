@@ -1,0 +1,29 @@
+import React, { PureComponent } from "react";
+import AddButton from "./Components/AddButton";
+import Counter from "./Components/Counter";
+import './App.css';
+
+class App1 extends PureComponent {
+constructor(){
+  super();
+  this.state = {
+    counter:0
+  }
+}
+
+  increaseCounter = () => {
+    let newCounter=this.state.counter + 1;
+    this.setState({counter: newCounter});
+  };
+
+  render() {
+    return (
+      <div>
+        <AddButton increaseCounter={this.increaseCounter} />
+        <Counter counter={this.state.counter} />
+      </div>
+    );
+  }
+}
+
+export default App1;
