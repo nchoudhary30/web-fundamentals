@@ -12,13 +12,14 @@ function printData(data) {
 //   let tempData = data.filter((a) => a.id < 50);
 //   ele.innerHTML = JSON.stringify(tempData, null, 4);
 let {limit, skip, total, users} = data;
-console.log(users);
+// console.log(users);
 
 // let names=users.map((ele)=>`${ele.firstName} ${ele.lastName}`);
-let names=users.map((ele)=>{return ({firstName: `${ele.firstName}`, lastName: `${ele.lastName}`, age:`${ele.age}`});})
-                .filter((ele)=>ele.age < 50);
+let names=users.filter((ele)=>ele.age < 25)
+      .map((ele)=>{return ({name:`${ele.firstName} `+`${ele.lastName}`});})
+        ;
 
-// console.log(names);
+console.log(names);
 
 }
 
