@@ -42,3 +42,16 @@
     transform: rotate(360deg);
   }
 }
+
+.header{
+  text-align: center;
+  font-size: 30px;
+}
+
+.form{
+  text-align: center;
+}
+
+.list{
+  margin: 30px;
+}
