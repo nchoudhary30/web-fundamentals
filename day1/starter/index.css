@@ -7,9 +7,9 @@ header{
     grid-template-columns: repeat(5, auto);
 }
 
-.cardClass{
-    
-}
+/* .row{
+    min-width: 100px;
+} */
 
 .dataClass{
     display: flex;
